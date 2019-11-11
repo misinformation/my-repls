@@ -183,7 +183,7 @@ console.log(products.length);
 //}
 
 //стрілочна функція
-products.forEach(el => console.log(el));
+//products.forEach(el => console.log(el));
 
 
 
@@ -224,6 +224,7 @@ function warnTheSheep(queue){
 //N = a++;
 */
 
+/*
 
 
 function firstNonConsecutive(arr) {
@@ -243,6 +244,7 @@ function firstNonConsecutive(arr) {
 }
 */
 
+/*
 // Short Solution
 function firstNonConsecutive(arr) {
   const result = arr.find((number, index) => number !== index + arr[0])
@@ -257,3 +259,29 @@ class SmallestIntegerFinder {
     return args[0];
   }
 }
+
+*/
+
+
+/*
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+console.log (randomWords[randomIndex]);
+*/
+
+/*
+function firstNonConsecutive(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    const num = arr[i] + 1
+    const consecutive = arr[i + 1]
+    if (num !== consecutive) return consecutive
+  }
+  return null
+}
+
+
+for (let i = 0; i + 1 > i);
+*/
+
+
+//'ASFGFCHTTT'.replace(/[TD]/ig, 'U');
